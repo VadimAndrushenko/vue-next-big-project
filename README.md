@@ -1,6 +1,12 @@
-# Web Application with Nuxt 4 and Express
 
-A full-stack web application with a Nuxt 4 frontend and Express.js backend API server.
+
+
+
+# Веб‑приложение (Nuxt 4 )
+
+Полноценное full‑stack веб‑приложение на базе Nuxt 4 (frontend)
+
+Проект состоит из клиента и сервера. Большая часть фронтенда реализована мной и ещё одним человеком - серверную часть выполнял другой разработчик. Проект в настоящий момент не завершён и временно приостановлен, но при этом полностью готов к локальному запуску и дальнейшей разработке
 
 ## Project Structure
 
