@@ -1,0 +1,28 @@
+{
+  "name": "web-app-nuxt-express",
+  "version": "1.0.0",
+  "description": "Full-stack web application with Nuxt 4 frontend and Express.js backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "npm run build:client",
+    "build:client": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "nuxt",
+    "express",
+    "vue",
+    "nodejs",
+    "fullstack",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

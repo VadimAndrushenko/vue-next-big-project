@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "deploy": "nuxt generate && echo 'Tip: push to main to trigger GH Pages workflow'",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "routes": "node scripts/list-routes.js"
+  },
+  "dependencies": {
+    "nuxt": "^4.0.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.0"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0"
+  }
+}

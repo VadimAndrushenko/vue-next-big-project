@@ -1,0 +1,60 @@
+# --- Node.js / NPM ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+client/pnpm-lock.yaml
+server/pnpm-lock.yaml
+client/package-lock.json
+server/package-lock.json
+client/yarn.lock
+server/yarn.lock
+client/bun.lockb
+server/bun.lockb
+node_modules
+
+# --- Nuxt / Vite / Build outputs ---
+# Nuxt 3/4 build artifacts
+client/.nuxt/
+client/.output/
+client/dist/
+server/.output/
+build/
+
+# --- Logs ---
+*.log
+*.log.*
+
+# --- Environment files ---
+.env
+.env.*
+!.env.example
+client/.env
+server/.env
+
+# --- Editor / OS files ---
+client/.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- TypeScript cache ---
+*.tsbuildinfo
+
+# --- Coverage / Tests ---
+coverage/
+*.lcov
+
+# --- Other caches ---
+.cache/
+.nitro/
+node_modules/*
+client/node_modules/*
+server/node_modules/*
+client/.DS_Store
+server/.DS_Store
+.DS_Store
+

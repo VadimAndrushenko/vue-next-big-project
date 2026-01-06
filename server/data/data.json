@@ -1,0 +1,796 @@
+{
+  "navigation": {
+    "logo": {
+      "text": "G",
+      "name": "GODDASS.AI",
+      "subtitle": "Divine Desires"
+    },
+    "menu": [
+      { "id": "girlfriend", "name": "Girlfriend", "href": "/?type=girlfriend" },
+      { "id": "anime", "name": "Anime", "href": "/?type=anime" },
+      { "id": "boyfriend", "name": "Boyfriend", "href": "/?type=boyfriend" }
+    ],
+    "actions": [
+      { "id": "login", "name": "Login", "type": "link", "href": "/login" },
+      { "id": "register", "name": "Register", "type": "button", "href": "/register" }
+    ]
+  },
+  "sidebar": {
+    "navigationItems": [
+      {
+        "id": "models",
+        "name": "Models",
+        "href": "/",
+        "active": true,
+        "icon": "svg"
+      },
+      {
+        "id": "generator",
+        "name": "Generator",
+        "href": "/generator",
+        "active": false,
+        "icon": "svg"
+      },
+      {
+        "id": "chat",
+        "name": "Chat",
+        "href": "/chat",
+        "active": false,
+        "icon": "svg"
+      },
+      {
+        "id": "favorites",
+        "name": "Favorites",
+        "href": "/favorites",
+        "active": false,
+        "icon": "svg"
+      },
+      {
+        "id": "private",
+        "name": "Private content",
+        "href": "/private",
+        "active": false,
+        "icon": "svg"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "id": "affiliate",
+        "name": "Affiliate",
+        "href": "/affiliate",
+        "icon": "svg"
+      },
+      {
+        "id": "updates",
+        "name": "Updates",
+        "href": "/updates",
+        "icon": "svg"
+      },
+      {
+        "id": "settings",
+        "name": "Settings",
+        "href": "/settings",
+        "icon": "svg"
+      }
+    ]
+  },
+  "dataSets": {
+    "girlfriend": {
+  "featuredModels": [
+    {
+      "id": 1,
+          "name": "Catalina",
+      "age": 19,
+      "bio": "Gothic punk College Student with a geeky side. She's impossible to resist with her dark charm and intellectual conversations.",
+      "image": "/images/girl.png",
+      "isFavorite": false,
+          "badge": "NEW",
+          "type": "girlfriend"
+    },
+    {
+      "id": 2,
+          "name": "Luna",
+      "age": 22,
+      "bio": "Mysterious artist with a passion for the occult. Her ethereal beauty and deep conversations will captivate your soul.",
+      "image": "/images/girl.png",
+      "isFavorite": true,
+          "badge": "PREMIUM",
+          "type": "girlfriend"
+    },
+    {
+      "id": 3,
+          "name": "Aria",
+      "age": 21,
+      "bio": "Adventurous photographer who loves to explore the world. Her stories and experiences will take you on incredible journeys.",
+      "image": "/images/girl.png",
+          "isFavorite": false,
+          "type": "girlfriend"
+    },
+    {
+      "id": 4,
+          "name": "Zara",
+      "age": 20,
+      "bio": "Tech-savvy gamer girl with a competitive spirit. She'll challenge your mind and keep you entertained for hours.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "type": "girlfriend"
+    },
+    {
+      "id": 5,
+          "name": "Maya",
+      "age": 23,
+      "bio": "Yoga instructor with a zen personality. Her calming presence and wisdom will bring peace to your daily life.",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=300&fit=crop&crop=face",
+      "isFavorite": false,
+          "badge": "NEW",
+          "type": "girlfriend"
+    }
+  ],
+  "aiModels": [
+    {
+      "id": 1,
+          "name": "Catalina",
+      "age": 19,
+      "bio": "Gothic punk College Student with a geeky side. She's impossible to resist with her dark charm and intellectual conversations.",
+      "description": "Gothic punk College Student with a geeky side. She's impossible to resist with her dark charm and intellectual conversations.",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=300&fit=crop&crop=face",
+      "isFavorite": false,
+          "badge": "NEW",
+          "type": "girlfriend"
+    },
+    {
+      "id": 2,
+          "name": "Luna",
+          "age": 22,
+          "bio": "Mysterious artist with a passion for the occult. Her ethereal beauty and deep conversations will captivate your soul.",
+          "description": "Mysterious artist with a passion for the occult. Her ethereal beauty and deep conversations will captivate your soul.",
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=300&fit=crop&crop=face",
+      "isFavorite": true,
+          "badge": "PREMIUM",
+          "type": "girlfriend"
+    },
+    {
+      "id": 3,
+          "name": "Aria",
+          "age": 21,
+          "bio": "Adventurous photographer who loves to explore the world. Her stories and experiences will take you on incredible journeys.",
+          "description": "Adventurous photographer who loves to explore the world. Her stories and experiences will take you on incredible journeys.",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "girlfriend"
+    },
+    {
+      "id": 4,
+          "name": "Zara",
+          "age": 20,
+          "bio": "Tech-savvy gamer girl with a competitive spirit. She'll challenge your mind and keep you entertained for hours.",
+          "description": "Tech-savvy gamer girl with a competitive spirit. She'll challenge your mind and keep you entertained for hours.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "type": "girlfriend"
+    },
+    {
+      "id": 5,
+          "name": "Maya",
+          "age": 23,
+          "bio": "Yoga instructor with a zen personality. Her calming presence and wisdom will bring peace to your daily life.",
+          "description": "Yoga instructor with a zen personality. Her calming presence and wisdom will bring peace to your daily life.",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=300&fit=crop&crop=face",
+      "isFavorite": false,
+          "badge": "NEW",
+          "type": "girlfriend"
+    },
+    {
+      "id": 6,
+          "name": "Sophia",
+          "age": 24,
+          "bio": "Fashion designer with a creative soul. Her artistic vision and passion for beauty will inspire you every day.",
+          "description": "Fashion designer with a creative soul. Her artistic vision and passion for beauty will inspire you every day.",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "girlfriend"
+    },
+    {
+      "id": 7,
+          "name": "Emma",
+          "age": 20,
+          "bio": "Cheerful barista who loves coffee and good conversations. Her positive energy will brighten your mornings.",
+          "description": "Cheerful barista who loves coffee and good conversations. Her positive energy will brighten your mornings.",
+      "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=300&fit=crop&crop=face",
+      "isFavorite": true,
+          "badge": "PREMIUM",
+          "type": "girlfriend"
+    },
+    {
+      "id": 8,
+          "name": "Isabella",
+          "age": 22,
+          "bio": "Bookworm and literature enthusiast. Her love for stories and deep thinking will engage your mind.",
+          "description": "Bookworm and literature enthusiast. Her love for stories and deep thinking will engage your mind.",
+      "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "girlfriend"
+    },
+    {
+      "id": 9,
+          "name": "Sophia",
+          "age": 20,
+          "bio": "Fashion designer with a creative spirit. Her sense of style and artistic vision will inspire you daily.",
+          "description": "Fashion designer with a creative spirit. Her sense of style and artistic vision will inspire you daily.",
+          "image": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "badge": "PREMIUM",
+          "type": "girlfriend"
+    },
+    {
+      "id": 10,
+          "name": "Emma",
+          "age": 21,
+          "bio": "Cheerful barista with a passion for coffee. Her warm personality and love for people will brighten your day.",
+          "description": "Cheerful barista with a passion for coffee. Her warm personality and love for people will brighten your day.",
+          "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "girlfriend"
+    },
+    {
+      "id": 11,
+          "name": "Olivia",
+      "age": 19,
+          "bio": "Music student with a soulful voice. She'll serenade you with beautiful melodies and share her passion for music.",
+          "description": "Music student with a soulful voice. She'll serenade you with beautiful melodies and share her passion for music.",
+          "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&h=300&fit=crop&crop=face",
+      "isFavorite": false,
+          "badge": "NEW",
+          "type": "girlfriend"
+    },
+    {
+      "id": 12,
+          "name": "Ava",
+          "age": 24,
+          "bio": "Successful entrepreneur with a driven personality. Her ambition and intelligence will motivate you to achieve your goals.",
+          "description": "Successful entrepreneur with a driven personality. Her ambition and intelligence will motivate you to achieve your goals.",
+          "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "badge": "PREMIUM",
+          "type": "girlfriend"
+    },
+    {
+      "id": 13,
+          "name": "Charlotte",
+          "age": 22,
+          "bio": "Environmental activist with a caring heart. Her dedication to making the world better will inspire you to be more conscious.",
+          "description": "Environmental activist with a caring heart. Her dedication to making the world better will inspire you to be more conscious.",
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "girlfriend"
+    },
+    {
+      "id": 14,
+          "name": "Amelia",
+          "age": 20,
+          "bio": "Dance instructor with graceful movements. Her passion for dance and expressive nature will bring joy to your life.",
+          "description": "Dance instructor with graceful movements. Her passion for dance and expressive nature will bring joy to your life.",
+          "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "girlfriend"
+    },
+    {
+      "id": 15,
+          "name": "Harper",
+          "age": 23,
+          "bio": "Skilled chef with a love for cooking. She'll create delicious meals and share her culinary adventures with you.",
+          "description": "Skilled chef with a love for cooking. She'll create delicious meals and share her culinary adventures with you.",
+          "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "type": "girlfriend"
+    },
+    {
+      "id": 16,
+          "name": "Evelyn",
+          "age": 21,
+          "bio": "Adventure photographer who captures life's beautiful moments. Her wanderlust and storytelling will take you on amazing journeys.",
+          "description": "Adventure photographer who captures life's beautiful moments. Her wanderlust and storytelling will take you on amazing journeys.",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "badge": "NEW",
+          "type": "girlfriend"
+        }
+      ]
+    },
+    "anime": {
+      "featuredModels": [
+        {
+          "id": 101,
+          "name": "Sakura",
+          "age": 18,
+          "bio": "Magical girl with pink hair and a kind heart. She believes in the power of friendship and love.",
+          "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "badge": "NEW",
+          "type": "anime"
+        },
+        {
+          "id": 102,
+          "name": "Yuki",
+          "age": 17,
+          "bio": "Shy high school student with silver hair. She's quiet but has a mysterious past that will intrigue you.",
+          "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "badge": "PREMIUM",
+          "type": "anime"
+        },
+        {
+          "id": 103,
+          "name": "Hinata",
+          "age": 16,
+          "bio": "Energetic ninja with orange hair and a never-give-up attitude. Her determination is contagious.",
+          "image": "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "anime"
+        },
+        {
+          "id": 104,
+          "name": "Mikasa",
+      "age": 19,
+          "bio": "Strong and protective warrior with black hair. She's fiercely loyal and will always have your back.",
+          "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "type": "anime"
+        },
+        {
+          "id": 105,
+          "name": "Zero Two",
+          "age": 18,
+          "bio": "Mysterious girl with pink hair and horns. She's both dangerous and alluring, with a complex personality.",
+          "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=face",
+      "isFavorite": false,
+          "badge": "NEW",
+          "type": "anime"
+        }
+      ],
+      "aiModels": [
+        {
+          "id": 101,
+          "name": "Sakura",
+          "age": 18,
+          "bio": "Magical girl with pink hair and a kind heart. She believes in the power of friendship and love.",
+          "description": "Magical girl with pink hair and a kind heart. She believes in the power of friendship and love.",
+          "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "badge": "NEW",
+          "type": "anime"
+        },
+        {
+          "id": 102,
+          "name": "Yuki",
+          "age": 17,
+          "bio": "Shy high school student with silver hair. She's quiet but has a mysterious past that will intrigue you.",
+          "description": "Shy high school student with silver hair. She's quiet but has a mysterious past that will intrigue you.",
+          "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "badge": "PREMIUM",
+          "type": "anime"
+        },
+        {
+          "id": 103,
+          "name": "Hinata",
+          "age": 16,
+          "bio": "Energetic ninja with orange hair and a never-give-up attitude. Her determination is contagious.",
+          "description": "Energetic ninja with orange hair and a never-give-up attitude. Her determination is contagious.",
+          "image": "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "anime"
+        },
+        {
+          "id": 104,
+          "name": "Mikasa",
+          "age": 19,
+          "bio": "Strong and protective warrior with black hair. She's fiercely loyal and will always have your back.",
+          "description": "Strong and protective warrior with black hair. She's fiercely loyal and will always have your back.",
+          "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "type": "anime"
+        },
+        {
+          "id": 105,
+          "name": "Zero Two",
+          "age": 18,
+          "bio": "Mysterious girl with pink hair and horns. She's both dangerous and alluring, with a complex personality.",
+          "description": "Mysterious girl with pink hair and horns. She's both dangerous and alluring, with a complex personality.",
+          "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "badge": "NEW",
+          "type": "anime"
+        },
+        {
+          "id": 106,
+          "name": "Asuna",
+          "age": 17,
+          "bio": "Skilled swordswoman with a gentle heart. She's both strong in battle and caring in relationships.",
+          "description": "Skilled swordswoman with a gentle heart. She's both strong in battle and caring in relationships.",
+          "image": "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "anime"
+        },
+        {
+          "id": 107,
+          "name": "Marin",
+          "age": 16,
+          "bio": "Cosplay enthusiast with a bubbly personality. She loves anime and will share her passion with you.",
+          "description": "Cosplay enthusiast with a bubbly personality. She loves anime and will share her passion with you.",
+          "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "badge": "PREMIUM",
+          "type": "anime"
+        },
+        {
+          "id": 108,
+          "name": "Nezuko",
+          "age": 14,
+          "bio": "Demon girl with a pure heart. Despite her nature, she's kind and protective of those she loves.",
+          "description": "Demon girl with a pure heart. Despite her nature, she's kind and protective of those she loves.",
+          "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "anime"
+        },
+        {
+          "id": 109,
+          "name": "Miku",
+          "age": 16,
+          "bio": "Virtual idol with a sweet voice. She loves singing and will perform beautiful songs just for you.",
+          "description": "Virtual idol with a sweet voice. She loves singing and will perform beautiful songs just for you.",
+          "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "badge": "PREMIUM",
+          "type": "anime"
+        },
+        {
+          "id": 110,
+          "name": "Rin",
+          "age": 17,
+          "bio": "Cat girl with playful personality. Her adorable antics and loyalty will make every day special.",
+          "description": "Cat girl with playful personality. Her adorable antics and loyalty will make every day special.",
+          "image": "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "anime"
+        },
+        {
+          "id": 111,
+          "name": "Yui",
+          "age": 15,
+          "bio": "Shy schoolgirl with a love for books. She's quiet but has a deep inner world to explore.",
+          "description": "Shy schoolgirl with a love for books. She's quiet but has a deep inner world to explore.",
+          "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "badge": "NEW",
+          "type": "anime"
+        },
+        {
+          "id": 112,
+          "name": "Kanna",
+          "age": 12,
+          "bio": "Dragon girl with childlike innocence. Her pure heart and magical abilities will bring wonder to your life.",
+          "description": "Dragon girl with childlike innocence. Her pure heart and magical abilities will bring wonder to your life.",
+          "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "type": "anime"
+        },
+        {
+          "id": 113,
+          "name": "Rem",
+          "age": 18,
+          "bio": "Devoted maid with unwavering loyalty. Her dedication and gentle nature will make you feel truly special.",
+          "description": "Devoted maid with unwavering loyalty. Her dedication and gentle nature will make you feel truly special.",
+          "image": "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "badge": "PREMIUM",
+          "type": "anime"
+        },
+        {
+          "id": 114,
+          "name": "Chika",
+          "age": 16,
+          "bio": "Energetic student council member. Her bubbly personality and determination will keep you motivated.",
+          "description": "Energetic student council member. Her bubbly personality and determination will keep you motivated.",
+          "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "anime"
+        },
+        {
+          "id": 115,
+          "name": "Mai",
+          "age": 17,
+          "bio": "Mysterious girl with supernatural powers. Her enigmatic nature and hidden depths will intrigue you.",
+          "description": "Mysterious girl with supernatural powers. Her enigmatic nature and hidden depths will intrigue you.",
+          "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "type": "anime"
+        },
+        {
+          "id": 116,
+          "name": "Yotsuba",
+          "age": 14,
+          "bio": "Cheerful girl with boundless energy. Her infectious happiness and simple joy will brighten every day.",
+          "description": "Cheerful girl with boundless energy. Her infectious happiness and simple joy will brighten every day.",
+          "image": "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "badge": "NEW",
+          "type": "anime"
+        }
+      ]
+    },
+    "boyfriend": {
+      "featuredModels": [
+        {
+          "id": 201,
+          "name": "Kai",
+          "age": 22,
+          "bio": "Mysterious bad boy with a heart of gold. His tough exterior hides a caring and protective nature.",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "badge": "NEW",
+          "type": "boyfriend"
+        },
+        {
+          "id": 202,
+          "name": "Alex",
+          "age": 24,
+          "bio": "Charming businessman with a successful career. He's confident, ambitious, and knows how to treat you right.",
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "badge": "PREMIUM",
+          "type": "boyfriend"
+        },
+        {
+          "id": 203,
+          "name": "Ryan",
+          "age": 21,
+          "bio": "Athletic college student with a competitive spirit. He's energetic, fun-loving, and always up for adventure.",
+          "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "boyfriend"
+        },
+        {
+          "id": 204,
+          "name": "Marcus",
+          "age": 26,
+          "bio": "Creative artist with a sensitive soul. He's passionate about his work and will inspire you with his vision.",
+          "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "type": "boyfriend"
+        },
+        {
+          "id": 205,
+          "name": "Jake",
+          "age": 23,
+          "bio": "Tech-savvy programmer with a nerdy charm. He's intelligent, witty, and will keep you entertained with his knowledge.",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "badge": "NEW",
+          "type": "boyfriend"
+        }
+      ],
+      "aiModels": [
+        {
+          "id": 201,
+          "name": "Kai",
+          "age": 22,
+          "bio": "Mysterious bad boy with a heart of gold. His tough exterior hides a caring and protective nature.",
+          "description": "Mysterious bad boy with a heart of gold. His tough exterior hides a caring and protective nature.",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "badge": "NEW",
+          "type": "boyfriend"
+        },
+        {
+          "id": 202,
+          "name": "Alex",
+          "age": 24,
+          "bio": "Charming businessman with a successful career. He's confident, ambitious, and knows how to treat you right.",
+          "description": "Charming businessman with a successful career. He's confident, ambitious, and knows how to treat you right.",
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "badge": "PREMIUM",
+          "type": "boyfriend"
+        },
+        {
+          "id": 203,
+          "name": "Ryan",
+          "age": 21,
+          "bio": "Athletic college student with a competitive spirit. He's energetic, fun-loving, and always up for adventure.",
+          "description": "Athletic college student with a competitive spirit. He's energetic, fun-loving, and always up for adventure.",
+          "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "boyfriend"
+        },
+        {
+          "id": 204,
+          "name": "Marcus",
+          "age": 26,
+          "bio": "Creative artist with a sensitive soul. He's passionate about his work and will inspire you with his vision.",
+          "description": "Creative artist with a sensitive soul. He's passionate about his work and will inspire you with his vision.",
+          "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "type": "boyfriend"
+        },
+        {
+          "id": 205,
+          "name": "Jake",
+          "age": 23,
+          "bio": "Tech-savvy programmer with a nerdy charm. He's intelligent, witty, and will keep you entertained with his knowledge.",
+          "description": "Tech-savvy programmer with a nerdy charm. He's intelligent, witty, and will keep you entertained with his knowledge.",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "badge": "NEW",
+          "type": "boyfriend"
+        },
+        {
+          "id": 206,
+          "name": "David",
+          "age": 25,
+          "bio": "Musician with a soulful voice. He's passionate about music and will serenade you with beautiful melodies.",
+          "description": "Musician with a soulful voice. He's passionate about music and will serenade you with beautiful melodies.",
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "boyfriend"
+        },
+        {
+          "id": 207,
+          "name": "Chris",
+          "age": 27,
+          "bio": "Adventure seeker and travel enthusiast. He's always planning the next exciting journey and will take you along.",
+          "description": "Adventure seeker and travel enthusiast. He's always planning the next exciting journey and will take you along.",
+          "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "badge": "PREMIUM",
+          "type": "boyfriend"
+        },
+        {
+          "id": 208,
+          "name": "Tom",
+          "age": 24,
+          "bio": "Chef with a passion for cooking. He loves to create delicious meals and will spoil you with his culinary skills.",
+          "description": "Chef with a passion for cooking. He loves to create delicious meals and will spoil you with his culinary skills.",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "boyfriend"
+        },
+        {
+          "id": 209,
+          "name": "James",
+          "age": 25,
+          "bio": "Doctor with a caring heart. His intelligence and compassion will make you feel safe and understood.",
+          "description": "Doctor with a caring heart. His intelligence and compassion will make you feel safe and understood.",
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "badge": "PREMIUM",
+          "type": "boyfriend"
+        },
+        {
+          "id": 210,
+          "name": "Michael",
+          "age": 28,
+          "bio": "Lawyer with a strong sense of justice. His protective nature and sharp mind will always have your back.",
+          "description": "Lawyer with a strong sense of justice. His protective nature and sharp mind will always have your back.",
+          "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "boyfriend"
+        },
+        {
+          "id": 211,
+          "name": "Daniel",
+          "age": 26,
+          "bio": "Architect with a creative vision. His passion for design and attention to detail will inspire you.",
+          "description": "Architect with a creative vision. His passion for design and attention to detail will inspire you.",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "badge": "NEW",
+          "type": "boyfriend"
+        },
+        {
+          "id": 212,
+          "name": "William",
+          "age": 29,
+          "bio": "Police officer with a strong moral compass. His bravery and dedication to protecting others is admirable.",
+          "description": "Police officer with a strong moral compass. His bravery and dedication to protecting others is admirable.",
+          "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "type": "boyfriend"
+        },
+        {
+          "id": 213,
+          "name": "Henry",
+          "age": 27,
+          "bio": "Teacher with a passion for education. His patience and wisdom will help you grow and learn.",
+          "description": "Teacher with a passion for education. His patience and wisdom will help you grow and learn.",
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "boyfriend"
+        },
+        {
+          "id": 214,
+          "name": "Samuel",
+          "age": 24,
+          "bio": "Firefighter with a heroic spirit. His courage and selflessness will make you feel protected and safe.",
+          "description": "Firefighter with a heroic spirit. His courage and selflessness will make you feel protected and safe.",
+          "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": true,
+          "badge": "PREMIUM",
+          "type": "boyfriend"
+        },
+        {
+          "id": 215,
+          "name": "Benjamin",
+          "age": 26,
+          "bio": "Engineer with a logical mind. His problem-solving skills and practical nature will help you overcome any challenge.",
+          "description": "Engineer with a logical mind. His problem-solving skills and practical nature will help you overcome any challenge.",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "type": "boyfriend"
+        },
+        {
+          "id": 216,
+          "name": "Lucas",
+          "age": 23,
+          "bio": "Personal trainer with a passion for fitness. His motivation and energy will help you achieve your goals.",
+          "description": "Personal trainer with a passion for fitness. His motivation and energy will help you achieve your goals.",
+          "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=300&fit=crop&crop=face",
+          "isFavorite": false,
+          "badge": "NEW",
+          "type": "boyfriend"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Everything you need to know about our AI companions",
+    "items": [
+      {
+        "id": 1,
+        "question": "How do AI companions work?",
+        "answer": "Our AI companions use advanced natural language processing to engage in meaningful conversations. Each character has a unique personality, background, and interests that make interactions feel natural and engaging."
+      },
+      {
+        "id": 2,
+        "question": "Are the conversations private?",
+        "answer": "Yes, all conversations with our AI companions are completely private and secure. We use industry-standard encryption to protect your data and ensure your privacy."
+      },
+      {
+        "id": 3,
+        "question": "Can I customize my AI companion?",
+        "answer": "While each character has a predefined personality, you can influence the conversation and build a unique relationship with your chosen companion through your interactions."
+      },
+      {
+        "id": 4,
+        "question": "How many companions can I chat with?",
+        "answer": "You can chat with as many companions as you'd like! Each character offers a different experience, so feel free to explore and find the ones that resonate with you."
+      },
+      {
+        "id": 5,
+        "question": "Is there a limit on conversation length?",
+        "answer": "There are no strict limits on conversation length. You can have deep, meaningful conversations that last as long as you'd like with your AI companion."
+      }
+    ]
+  },
+  "footer": {
+    "socialLinks": [
+      { "id": "facebook", "name": "Facebook", "href": "#facebook" },
+      { "id": "instagram", "name": "Instagram", "href": "#instagram" },
+      { "id": "twitter", "name": "X (Twitter)", "href": "#twitter" },
+      { "id": "reddit", "name": "Reddit", "href": "#reddit" }
+    ],
+    "legalLinks": [
+      { "id": "terms", "name": "Terms of Service", "href": "#terms" },
+      { "id": "privacy", "name": "Privacy Policy", "href": "#privacy" },
+      { "id": "cancellation", "name": "Cancellation Policy", "href": "#cancellation" },
+      { "id": "complaint", "name": "Complaint Policy", "href": "#complaint" },
+      { "id": "content-removal", "name": "Content Removal Policy", "href": "#content-removal" }
+    ],
+    "contactEmail": "goddassai.support@gmail.com",
+    "companyInfo": {
+      "name": "Hedonism Games LTD",
+      "address": "Apostolou Pavlou Ave 10, Paphos 8046"
+    }
+  }
+}
